@@ -1,0 +1,70 @@
+body {
+	font-family: 'Anaheim';
+	font-size: 1.2em;
+}
+
+#outside {
+	background-color: lightgoldenrodyellow;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+form {
+	margin: 0 auto;
+	width: 70%;
+	padding: 1em;
+	border: 1px solid #ccc;
+}
+
+#survey-form {
+	background-color: white;
+}
+
+fieldset {
+	border: 1px solid lightgray;
+	margin: 10px;
+}
+
+legend {
+	font-weight: 700;
+}
+
+#number {
+	width: 150px;
+}
+
+div + div {
+	margin-top: 1em;
+}
+
+label {
+	/* To make sure that all label have the same size and are properly align */
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+}
+
+input,
+textarea {
+	font: 1em sans-serif;
+	width: 200px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+	border-color: orangered;
+}
+
+textarea {
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+}

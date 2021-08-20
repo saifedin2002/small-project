@@ -1,0 +1,6 @@
+name , points
+saif , 100
+majied , 90
+ahmed , 60
+khaled , 70
+salem , 80

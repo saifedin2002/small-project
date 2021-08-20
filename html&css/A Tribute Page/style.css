@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contaner {
+	width: 500px;
+	overflow: hidden;
+	border: 1px red solid;
+	margin: 0 auto;
+}
+
+.contaner * {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contaner .logo {
+	margin: 0 auto;
+	width: 50%;
+	margin: 0 25%;
+}
